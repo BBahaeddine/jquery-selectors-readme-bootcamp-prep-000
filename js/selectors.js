@@ -4,7 +4,7 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  return $('img:last#baby-ninja');
+  return $('img:last[id="baby-ninja"]');
 }
 
 function divSelector() {
